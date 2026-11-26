@@ -65,6 +65,19 @@ Made with AI. I described the app in plain words and Claude Code wrote the code,
 the demo. I decided what the app should do. Every format was tested on Windows; the Mac version
 has not been run yet.
 
+## Credits
+
+- Idea inspired by Tangerine, a file converter app for Mac. No code or art was copied; Drop Convert was
+  written from scratch.
+- [ffmpeg](https://ffmpeg.org) does the video, audio and image conversions. It is not included: the installer
+  offers to get it with winget (the Gyan.dev build) on Windows or Homebrew on Mac. ffmpeg is free software
+  under the LGPL/GPL.
+- Microsoft Word does the document conversions, and the PDF reader built into Windows turns PDFs into images.
+  Both are used as they are on your computer, not included.
+- The icon, the bubble and the round menu are drawn by the app's own code (windows/make-icon.ps1 for the icon).
+- The demo was recorded on Windows with sample files made for it. It shows File Explorer and the usual file
+  icons for Word, PDF and VLC, which belong to their owners.
+
 ## License
 
 [MIT](LICENSE)
